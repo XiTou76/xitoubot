@@ -18,4 +18,9 @@ bot.on('message', message => {
         message.reply("Salut potos :) ");
         console.log("Commande Salut effectué");
     }
+
+    if (message.content === "Ping"){
+        message.reply("Pong :) ");
+        console.log("commande Ping éffectuer");
+    }
 });
